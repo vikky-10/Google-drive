@@ -8,7 +8,7 @@ import HelpOutlineIcon from "@material-ui/icons/HelpOutline";
 import SettingsIcon from "@material-ui/icons/Settings";
 
 import AppsIcon from "@material-ui/icons/Apps";
-import { useAuth } from "../context/Authcontex";
+import { useAuth } from "../../contexts/AuthContext";
 import { Avatar } from "@material-ui/core";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 export default function NavbarComponent() {
