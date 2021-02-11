@@ -14,34 +14,7 @@ import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 export default function NavbarComponent() {
   const { currentUser } = useAuth();
   return (
-    // <Navbar bg="light" className="nav">
-    //   <Navbar as={Link} to="/" className="first__nav">
-    //     <img
-    //       src="https://www.freepngimg.com/thumb/logo/66844-logo-google-drive-suite-free-hd-image-thumb.png"
-    //       style={{ height: "30px", marginRight: "5px" }}
-    //       alt="Google Drive"
-    //     />
-
-    //     <span>
-    //       <strong>Drive</strong>
-    //     </span>
-    //   </Navbar>
-
-    //   <Nav className="sec__nav">
-    //     <Nav>
-    //       <div className="header__icons">
-    //         <div className="identity">
-    //           <p> {currentUser.email}</p>
-    //           <Avatar> {currentUser.email[0]}</Avatar>
-    //         </div>
-    //       </div>
-    //     </Nav>
-    //     <Nav.Link as={Link} to="/user" className="profile">
-    //       Profile
-    //     </Nav.Link>
-    //   </Nav>
-    // </Navbar>
-    <div className="header">
+      <div className="header">
       <div className="header__logo">
         <img
           src="https://www.freepngimg.com/thumb/logo/66844-logo-google-drive-suite-free-hd-image-thumb.png"
